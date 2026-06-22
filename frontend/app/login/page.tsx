@@ -18,7 +18,7 @@ export default function LoginPage() {
     e: React.FormEvent
   ) => {
     e.preventDefault();
-
+    
     try {
       const res = await fetch(
         'https://ai-travel-planner-backend-zhr1.onrender.com/api/auth/login',
