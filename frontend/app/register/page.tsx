@@ -12,7 +12,7 @@ export default function RegisterPage() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/register",
+        "https://ai-travel-planner-backend-zhr1.onrender.com/api/auth/register",
         {
           method: "POST",
           headers: {
